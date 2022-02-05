@@ -1,0 +1,15 @@
+RewriteBase /
+Options +FollowSymLinks
+# Turn on the RewriteEngine
+RewriteEngine On
+#  Rules
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php
+ 
+ 
+#php_value error_reporting 2047
+#php_value error_log ../httpd-error.log
+#php_value log_errors_max_len 52428800

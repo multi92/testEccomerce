@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+html, body { background:#ebebeb;   margin:0; padding:0; }
+
+hr{
+	    border-top: 1px solid #999;	
+}
+.box-title{
+	margin-top:0;
+}
+.list-group-item{
+	padding:8px;	
+}
+.list-group-item h4, .list-group-item p{
+	margin:0px;
+}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#sortable > li { margin: 3px 3px 7px 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 4em; text-align: center; overflow:hidden; position:relative !important; }
+.deleteProductImageButton{  position:absolute !important; top:0; right:0; }
+.attrProductImageButton{  position:absolute !important; top:0; right:25px; }
+.categorySelectHolder, .categoryButtonHolder{
+	display:block;	
+	clear:both;
+}
+

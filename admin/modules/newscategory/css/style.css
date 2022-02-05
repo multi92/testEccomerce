@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+html, body { background:#ebebeb;   margin:0; padding:0; }
+
+/*hr{
+	    border-top: 1px solid #999;	
+}*/
+.box-title{
+	margin-top:0;
+}
+
+.listAttrCont li.active a{
+	color:#FFF !important;	
+}
+.selectIsMandatoryHolder{
+	margin-right:10px;	
+}

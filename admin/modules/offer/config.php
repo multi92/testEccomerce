@@ -1,0 +1,16 @@
+<?php
+
+$javascript = array('config.js', 'functions.js', 'script.js');
+
+$javascriptplugins = array( 'plugins/datatables/jquery.dataTables.min.js',
+		'plugins/datatables/dataTables.bootstrap.min.js',
+    	'plugins/slimScroll/jquery.slimscroll.min.js',
+    	'plugins/fastclick/fastclick.min.js',
+		'plugins/datepicker/bootstrap-datepicker.js',
+		'plugins/systememail/systememail.js');
+
+$css = array('style.css');
+
+$cssplugins = array('plugins/datatables/dataTables.bootstrap.css',
+				'plugins/datepicker/datepicker3.css');
+?>

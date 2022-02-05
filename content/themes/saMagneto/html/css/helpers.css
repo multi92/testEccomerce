@@ -1,0 +1,55 @@
+
+._unmargin{
+	margin:0;
+}
+._unpading{
+	padding: 0;
+}
+._mt-20{
+    margin-top: 20px;
+}
+._mb-20{
+    margin-bottom: 20px;
+}
+._col-seter{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+._transition {
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+}
+._relative {
+    position: relative;
+}
+._go-left{
+	float:left;
+}
+._go-right{
+	float:right;
+}
+
+._radius5{
+    border-radius: 5px;
+}
+
+._pr-0{
+    padding-right: 0px;
+}
+._pl-5{
+    padding-left: 5px;
+}
+
+/*MEDIA QUERYS*/
+
+@media all and (max-width: 499px){
+    ._col-xs-100{
+        width: 100%;
+    }
+    ._col-xs-50{
+        width: 50%;
+    }
+}

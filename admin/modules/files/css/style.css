@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+html, body { background:#ebebeb;   margin:0; padding:0; }
+#container { min-width:320px; margin:0px auto 0 auto; background:white; border-radius:0px; padding:0px; overflow:hidden; float: right; width: calc(100% - 230px);}
+#tree {  border-right:1px solid silver; overflow:auto; padding:0px 0; font-size: 1em; width:100%; height: auto !important;}
+#data {  }
+#data textarea { margin:0; padding:0; height:100%; width:100%; border:0; background:white; display:block; line-height:18px; resize:none; }
+#data, #code { font: normal normal normal 12px/18px 'Consolas', monospace !important; }
+#tree .folder { background:url('./file_sprite.png') right bottom no-repeat; }
+#tree .file { background:url('./file_sprite.png') 0 0 no-repeat; }
+#tree .file-pdf { background-position: -32px 0 }
+#tree .file-as { background-position: -36px 0 }
+#tree .file-c { background-position: -72px -0px }
+#tree .file-iso { background-position: -108px -0px }
+#tree .file-htm, #tree .file-html, #tree .file-xml, #tree .file-xsl { background-position: -126px -0px }
+#tree .file-cf { background-position: -162px -0px }
+#tree .file-cpp { background-position: -216px -0px }
+#tree .file-cs { background-position: -236px -0px }
+#tree .file-sql { background-position: -272px -0px }
+#tree .file-xls, #tree .file-xlsx { background-position: -362px -0px }
+#tree .file-h { background-position: -488px -0px }
+#tree .file-crt, #tree .file-pem, #tree .file-cer { background-position: -452px -18px }
+#tree .file-php { background-position: -108px -18px }
+#tree .file-jpg, #tree .file-jpeg, #tree .file-png, #tree .file-gif, #tree .file-bmp { background-position: -126px -18px }
+#tree .file-ppt, #tree .file-pptx { background-position: -144px -18px }
+#tree .file-rb { background-position: -180px -18px }
+#tree .file-text, #tree .file-txt, #tree .file-md, #tree .file-log, #tree .file-htaccess { background-position: -254px -18px }
+#tree .file-doc, #tree .file-docx { background-position: -362px -18px }
+#tree .file-zip, #tree .file-gz, #tree .file-tar, #tree .file-rar { background-position: -416px -18px }
+#tree .file-js { background-position: -434px -18px }
+#tree .file-css { background-position: -144px -0px }
+#tree .file-fla { background-position: -398px -0px }
+
+#fileupload{line-height:18px !important; text-align:left;}
+a {
+  color: orange;
+  text-decoration: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+h1 {
+  line-height: 1em;
+}
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eee;
+}
+table {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.fileupload-progress {
+	margin: 10px 0;
+}
+.fileupload-progress .progress-extended {
+	margin-top: 5px;
+}
+.error {
+  color: red;
+}
+.filesHeader th, .files td{
+	padding:0 5px;	
+}
+
+@media (min-width: 481px) {
+  .navigation {
+    list-style: none;
+    padding: 0;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation li:not(:first-child):before {
+    content: "| ";
+  }
+}
+
+.ui-widget {
+            font-size: 0.95em;
+        }
+		
+.content, #data{
+	    height: auto !important;
+    line-height: 0 !important;	
+}
+
+td{
+  word-break: break-all;
+}
+
+.preview img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.delete.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-icon-primary {
+    padding: 5px 0;
+}

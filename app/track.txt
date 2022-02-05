@@ -1,0 +1,22 @@
+######################## 09.02.2018 ########################
+GlobalHelper.php
+ADD: 
+
+	GlobalHelper:getContrastColor($parm1)
+		parm1 type HTML hex color code
+		return type contrast BLACK or WHITE HTML hex color code
+
+############################################################
+######################## 05.02.2018 ########################
+CHANGE:
+
+	GlobalHelper::isCategoryLast($parm1) 
+		CHANGE: parm1 type String -> Array 
+		/**	Function now check entire category tree instead just last value from URL. Using GlobalHelper::isChildExist for recursion	*/
+		
+ADD: 
+
+	GlobalHelper::isChildExist($parm1, $parm2)
+		parm1 type Array
+		parm2 type Int
+############################################################

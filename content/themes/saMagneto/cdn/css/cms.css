@@ -1,0 +1,150 @@
+.cms-galleries-bottom-bckg {
+  /*background-image: url('../../views/theme/img/bckg1.png');*/
+}
+ 
+
+/*BUTTONS CSS*/
+.sa-button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(230, 0, 0);
+  -webkit-transition: all ease-in-out 0.1s;
+  -moz-transition: all ease-in-out 0.1s;
+  -ms-transition: all ease-in-out 0.1s;
+  -o-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s;
+  width: auto;
+}
+.sa-button.disabled,
+.sa-button[disabled],
+fieldset[disabled] .sa-button {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: 0.65;
+}
+.sa-button:hover,
+.sa-button:focus,
+.sa-button:active {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(234, 76, 70);
+  border-color: rgb(234, 76, 70);
+}
+
+.sa-button.-sqr {
+  border-radius: 0;
+}
+.sa-button.-rounded {
+  border-radius: 5px;
+}
+.sa-button.-circle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+.sa-button.-circle-small {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+}
+
+.sa-button.-primary {
+  background-color: #000066;
+  border-color: #000066;
+}
+.sa-button.-primary:hover {
+  background-color: rgb(230, 0, 0);
+  border-color: rgb(230, 0, 0);
+}
+
+.sa-button.-success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.sa-button.-success:hover {
+  background-color: #439f43;
+  border-color: #439f43;
+}
+
+.sa-button.-info {
+  background-color: #333e48;
+  border-color: #333e48;
+}
+.sa-button.-info:hover {
+  background-color: #4d5862;
+  border-color: #4d5862;
+}
+
+.sa-button.-warning {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.sa-button.-warning:hover {
+  background-color: #d79435;
+  border-color: #d79435;
+}
+
+.sa-button.-danger {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.sa-button.-danger:hover {
+  background-color: #c03a36;
+  border-color: #c03a36;
+}
+
+.sa-button.-attr-color-default {
+  width: 50px;
+  height: 50px;
+}
+.sa-button.-attr-color-small {
+  width: 18px;
+  height: 18px;
+}
+.sa-button.-attr-image-default {
+  width: 50px;
+  height: 50px;
+}
+.sa-button.-attr-image-small {
+  width: 18px;
+  height: 18px;
+}
+.sa-button.-attr-text-default {
+  width: auto;
+  height: 50px;
+}
+.sa-button.-attr-text-small {
+  width: auto;
+  height: 18px;
+}
+
+.sa-button.-full-width {
+  width: 100%;
+}
+
+.sa-button.-half-width {
+  width: 49%;
+}
+/*BUTTONS CSS END*/

@@ -1,0 +1,21 @@
+[21-Jul-2014 22:07:32 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kellern/public_html/configs/db_config.php on line 9
+[21-Jul-2014 22:07:32 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/kellern/public_html/configs/db_config.php on line 17
+[21-Jul-2014 22:07:32 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'kellern'@'localhost' (using password: NO) in /home/kellern/public_html/admin/login/check.php on line 18
+[21-Jul-2014 22:07:32 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/kellern/public_html/admin/login/check.php on line 18
+[21-Jul-2014 22:07:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kellern/public_html/admin/login/check.php on line 20
+[21-Jul-2014 22:07:32 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kellern/public_html/configs/db_config.php on line 9
+[21-Jul-2014 22:07:32 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/kellern/public_html/configs/db_config.php on line 17
+[21-Jul-2014 22:07:58 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kellern/public_html/configs/db_config.php on line 9
+[21-Jul-2014 22:07:58 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/kellern/public_html/configs/db_config.php on line 17
+[21-Jul-2014 22:07:58 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'kellern'@'localhost' (using password: NO) in /home/kellern/public_html/admin/login/check.php on line 18
+[21-Jul-2014 22:07:58 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/kellern/public_html/admin/login/check.php on line 18
+[21-Jul-2014 22:07:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kellern/public_html/admin/login/check.php on line 20
+[21-Jul-2014 22:07:58 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kellern/public_html/configs/db_config.php on line 9
+[21-Jul-2014 22:07:58 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/kellern/public_html/configs/db_config.php on line 17
+[21-Jul-2014 22:09:12 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kellern/public_html/configs/db_config.php on line 9
+[21-Jul-2014 22:09:12 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/kellern/public_html/configs/db_config.php on line 17
+[21-Jul-2014 22:09:12 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'kellern'@'localhost' (using password: NO) in /home/kellern/public_html/admin/login/check.php on line 18
+[21-Jul-2014 22:09:12 UTC] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/kellern/public_html/admin/login/check.php on line 18
+[21-Jul-2014 22:09:12 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/kellern/public_html/admin/login/check.php on line 20
+[21-Jul-2014 22:09:12 UTC] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/kellern/public_html/configs/db_config.php on line 9
+[21-Jul-2014 22:09:12 UTC] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, null given in /home/kellern/public_html/configs/db_config.php on line 17
